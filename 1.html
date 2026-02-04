@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            border: 2px solid black;
+            background-color: white;
+        }
+
+        .top-section {
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 2px solid black;
+        }
+
+        .box {
+            width: 33.33%;
+            float: left;
+            padding: 10px;
+            text-align: center;
+            border-right: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        .box:last-child {
+            border-right: none;
+        }
+
+        .box img {
+            width: 100%;
+            height: 180px;
+        }
+
+        .middle-section {
+            width: 100%;
+            overflow: hidden;
+            border-bottom: 2px solid black;
+        }
+
+        .video {
+            width: 66.66%;
+            float: left;
+            padding: 10px;
+            border-right: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        .video video {
+            width: 100%;
+            height: 250px;
+        }
+
+        .paragraph {
+            width: 33.33%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .bottom-section {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .address {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            border-right: 2px solid black;
+            box-sizing: border-box;
+            text-align: center;
+            font-style: normal;
+        }
+
+        .description {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">Navigation Bar</div>
+
+    <div class="container">
+
+        <div class="top-section">
+            <div class="box">
+                <img src="img.avif" alt="Image 1">
+            </div>
+            <div class="box">
+                <img src="img2.png" alt="Image 2">
+            </div>
+            <div class="box">
+                <img src="img3.png" alt="Image 3">
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <div class="video">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="paragraph">
+               This webpage is a basic front-end layout developed using HTML and CSS.
+        It includes a navigation bar, image gallery, and an embedded video section
+        to demonstrate the use of multimedia elements on a webpage.
+        The layout is divided into structured sections to maintain proper alignment,
+        spacing, and visual balance. This section highlights how text content can be
+        combined with media elements to improve user engagement and readability.
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <address class="address">
+                Vani bhardwaj<br>
+                Roorkee<br>
+                Haridwar , Uttarakhand<br>
+                247667<br>
+                Contact: 98XXXXXX89;
+            </address>
+
+            <div class="description">
+                This assignment was created to understand the fundamentals of web page
+        structure and layout design. It focuses on using semantic HTML elements,
+        proper sectioning, and basic CSS styling techniques such as borders,
+        padding, and alignment. The project serves as a foundation for learning
+        modern front-end development concepts and building visually organized webpages.
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -41,6 +41,9 @@ basic-html-css-layout/
 ├── video.mp4
 └── README.md
 
+## Project Screenshot##
+![Webpage Screenshot](webpage.png)
+
 
 ## 🚀 How to Run the Project
 

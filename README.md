@@ -32,4 +32,25 @@ The main objective of this assignment is to:
 This project serves as a foundation for learning modern front-end development concepts.
 
 ## 📂 Project Structure
+basic-html-css-layout/
+│
+├── index.html
+├── img.avif
+├── img2.png
+├── img3.png
+├── video.mp4
+└── README.md
+
+## 🚀 How to Run the Project
+
+1. Download or clone the repository  
+2. Open `index.html` in any modern web browser  
+3. Make sure image and video files are in the same folder  
+
+## 👤 Author
+
+**Vani Bhardwaj**  
+Roorkee, Haridwar, Uttarakhand 
+
+⭐ This project is created for learning and academic purposes.
 

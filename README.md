@@ -41,6 +41,7 @@ basic-html-css-layout/
 ├── video.mp4
 └── README.md
 
+
 ## 🚀 How to Run the Project
 
 1. Download or clone the repository  
@@ -53,4 +54,10 @@ basic-html-css-layout/
 Roorkee, Haridwar, Uttarakhand 
 
 ⭐ This project is created for learning and academic purposes.
+
+## Disclaimer
+
+This project is created solely for academic and learning purposes.  
+Images and video are used only for demonstration and have been sourced from public domains or search engines.  
+No copyright infringement is intended.
 
